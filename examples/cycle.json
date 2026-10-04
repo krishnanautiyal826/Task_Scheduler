@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {"id": "a", "priority": 3, "deadline": "2026-11-01"},
+    {"id": "b", "priority": 3, "deadline": "2026-11-01"},
+    {"id": "c", "priority": 3, "deadline": "2026-11-01"},
+    {"id": "d", "priority": 3, "deadline": "2026-11-01"}
+  ],
+  "dependencies": [["a", "c"], ["b", "a"], ["c", "b"], ["d", "c"]]
+}

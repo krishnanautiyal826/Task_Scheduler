@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {"id": "build", "priority": 3, "deadline": "2026-11-05", "duration": 3},
+    {"id": "test", "priority": 4, "deadline": "2026-11-06", "duration": 2},
+    {"id": "deploy", "priority": 5, "deadline": "2026-11-01", "duration": 1},
+    {"id": "docs", "priority": 2, "deadline": "2026-11-02", "duration": 1},
+    {"id": "lint", "priority": 5, "deadline": "2026-11-02", "duration": 1}
+  ],
+  "dependencies": [["test", "build"], ["deploy", "test"]]
+}
